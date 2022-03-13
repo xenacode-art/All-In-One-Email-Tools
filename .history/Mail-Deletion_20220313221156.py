@@ -6,7 +6,7 @@ from email.header import decode_header
 
 # Input account details
 username = input("Enter Your Mail Address: ")
-password = getpass(("Input Password: "))
+password = getpass.getpass(("Input Password: "))
 
 # Creating an IMP4 for connection via ssl
 
